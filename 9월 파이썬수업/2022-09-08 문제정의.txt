@@ -1,0 +1,49 @@
+프리미엄 경영
+
+- 고급화 전략
+- 브랜드 마케딩(Brand Marketing)
+- 잡샵 프로세스(Job_shop Process), TQM(섬세한 품질을 만들어낸다)
+- HRD(Human Resource Development)(좋은 인재 육성)
+
+경험과 의미
+- 경험이란, 우리가 제품/서비스를 이용하는 이유이지만, 기능에도, 품질에도, 
+    프리미엄에도 포함되지 않는것.
+
+1. 끼니를 해결하기 위해서   :   허기를 해결할 수 있는 음식[기능]
+2. 맛잇는 음식을 먹기 위해서    :   (다른 음식보다)맛있는 음식[품질]
+3. 고급 요리를 먹어보기 위해서  :   고급화된 음식[프리미엄]
+4. 사진을 찍고 자랑하기 위해서      (경험의 영역)
+5. 특별한 날을 기념하기 위해서      (경험의 영역)
+
+STP 전략
+Segmentimg : 고객을 분류하고
+Targeting : 분류된 고객 중 대상 고객을 선정하고
+Positioning : 대상 고객에 맞는 전략을 수행한다
+
+Kotler 의 Market Segmentation
+Geographic : 고객이 사는 지역에 따라
+Demographic : 고객의 인구통계학적 정보에 따라
+Behavioral : 고객의 행동 양상에 따라
+Psychographic : 고객의 판단 양심에 따라
+고객을 분류한다.
+
+품질 중심의 접근법
+
+QFD (Quality Function Deployment) or HoQ (House of Quality)
+- 고객들이 원하는 것
+- 기술적으로 구현이 용이한 것
+- 경쟁에서 이길 수 있는 것
+- 시너지 효과가 나는 것
+을 교려하여 최적의 제품 설계온
+
+SERVQUAL
+- Reliability : 연관성
+- Assurance : 신뢰성
+- Tangibles : 가시성
+- Empathy : 성심성의
+- Responsiveness : 반응성
+
+프로젝트
+데이터 분석 : 시장조사(데이터 크롤링) -> 고객이해(데이터 크롤링) -> 서비스/제품 디자인 
+-> 웹사이트 구현 혹은 AI Prototype(머신러닝 알고리즘)
+
