@@ -19,3 +19,37 @@ Selenium 동적
 크롬 드라이버
 크롬 브라우저를 제어하기 위한 드라이버
 웹 페이지를 자동적으로 동작하도록 하는 것을 가능하게 함
+
+Chrome driver 설치하기(기본)
+Selenium 설치
+!pip install selenium==3.141.0
+from selenium import webdriver
+
+- 1. 주소
+- 현재 주소 가져오기 driver.current_url
+
+- 2. 창크기
+- 최대화  driver.maximize_window()
+- 최소화  driver.minimize_window()
+
+- 3. 닫기
+- 현재 탭  driver.close()
+- 브라우저 driver.quit()
+
+- 4. 이동
+- 뒤로가기  driver.back()
+- 앞으로가기 driver.forward()
+- 해당 탭으로 이동
+- driver.switch_to.window(driver.window_handles[0]) 
+- [0]인덱스 = 첫번째 탭으로 이동
+
+find_element_by_css_selector("")
+- 해당 선택자에 해당하는 첫번째 하나의 오소가 선택됨
+
+find_elements_by_css_selector("")
+- 해당 선택자에 해당하는 모든 요소가 선택됨
+
+Web driver 키보드 입력/클릭하기
+- 드라이버를 이용해서 자주 사용하는 입력값을 웹 브라우저에 전달하는 것이 가능하다
+from selenium.webdriver.common.keys import Keys
+문자 입력 : search.send_keys("전달하고자 하는 문자")
