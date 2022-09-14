@@ -1,0 +1,27 @@
+정적
+라이브러리
+BeautifulSoup, request
+request.text
+soup(request.text, 'html.parser')
+soup.selet('htmltag.class > html)
+
+동적
+라이브러리
+Selenium
+Chrome driver
+driver.find_element()
+driver.by_CSS_selector()
+driver.by_xpath()
+
+Selenium의 마우스 동작 조작
+실행코드
+from Selenium.webdriver.common.action_chains import ActionChains
+
+time 라이브러리
+시간 제어 : time
+셀레니움 사용시에 브라우저가 로딩이 되기 전에 코드가 실행되어 오류가 날 수 있다.
+그럴때 잠시 멈춤으로써 로딩 전 코드 실행 방지
+실행코드
+import time
+초간 작동 중지
+time.sleep(원하는 초)
