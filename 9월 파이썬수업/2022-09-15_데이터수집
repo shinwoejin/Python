@@ -1,0 +1,19 @@
+데이터 수집 href 속성
+클릭을 하면 넘어가는 주소
+
+href 속성
+Hypertext REFerence
+href 주소를 클릭하게 되면 해당 url을 참조하게 된다.
+href 속성은 a 태그와 함께 쓰인다.
+ex) <a href = "참조 url" class = 'nnn'> ___ </a>
+기본 추출코드
+___ = soup.select('a[href]')
+
+첫번째 태그만 출력
+url = soup.find('html 태크', class_ = '클래스이름')
+url = soup.select_one('선택자')
+
+모든 태그 출력
+url = soup.find_all('html 태그', class_='클래스이름')
+url = soup.select('선택자')
+
