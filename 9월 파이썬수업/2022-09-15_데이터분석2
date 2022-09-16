@@ -1,0 +1,25 @@
+빈도 분석 : 워드 클라우드
+문장이나 대화 속에서 각각의 문자의 빈출 경향의 정도를 분석
+가장 기본이 되는 텍스트 분석 방식
+
+- 데이터에 대한 전반적인 이해와 흐름을 살펴보기에 용이
+- 특정 단어가 자주 출현하면 핵심 단어라고 볼 수 있다.
+
+1. 분석을 원하는 text 수집
+2. text 전처리
+3. 빈출 워드 카운팅
+4. wordcloud 세팅
+5. 세팅한 wordcloud 시각화
+
+설치 코드 !pip install wordcloud
+
+실행 코드
+from wordcloud import WordCloud
+from collections import Counter
+import matplotlib.pyplot as plt
+
+데이터 정제하기
+1)분석할 텍스트 정의하기
+2)형태소 분석기를 통해 텍스트 정제하기
+    (특정 품사 추출 / 불용어 제거)
+3) collections 라이브러리를 통해 추출된 워드 카운팅
