@@ -1,0 +1,8 @@
+F A T : The Role of Explainable AI
+
+Fairness : AI에 의한 의사결정 과정 및 결과는 모든 사람에게 공정해야 한다.
+
+Accountabillty : 인간 개발자는 AI가 야기하는 모든 부정적인 효과를 통제할 의지와 역량을 지녀야 한다.
+
+Transparency : AI에 의한 의사결정 과정 및 결과에 누구든 접근 가능해야 하며, 누구든 이해할 수 있어야 한다.
+
