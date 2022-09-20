@@ -32,4 +32,3 @@ numpy.ndarray 클래스
 - N차원 형태로 구성이 가능하다.
 - 각 값들은 양의 정수로 색인(index)이 부여되어 있다.
 - ndarray를 줄여서 array로 표현한다.
-
