@@ -47,3 +47,4 @@ Pandas 모듈 import
 - import pandas as pd
     : pandas모듈(라이브러리)를 import하고 앞으로 pd라는 이름으로 부르겠다.
 
+concat 함수의 join속성
