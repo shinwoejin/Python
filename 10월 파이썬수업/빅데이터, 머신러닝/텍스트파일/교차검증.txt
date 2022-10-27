@@ -3,6 +3,11 @@
   안정성을 높이고 과대적합을 감소 시키는
   통계적 기법
   
+Holdout-Cross-Validation
+TrainData(학습)
+ValidationData(검증)
+TestData(평가)
+
 k-fold Cross-Validation
 1.데이터 셋을 k개로 나눈다.
 2.첫 번째 세트를 제외하고 나머지에 대해 모델을 학습한다.
@@ -17,7 +22,11 @@ cross-validation 장단점
 - 데이터 셋의 크기가 충분히 크지 않은 경우에도 유용하게 사용 가능
 - 여러 번 학습하고 평가하는 과정을 거치기 때문에 계산량이 많아짐
 
-cross_val_score() 함수
+cross_val_score() 함수 (cross_validate, k-Fold)
 from sklearn.model_selection import cross_val_score
 result = cross_val_score(모델명, 문제, 정답, cv=나눌 개수)
+                         (KNN,LR, DT,앙상블)
+                                  (x)
+                                      (y)
+                                         (cv=?)
 
